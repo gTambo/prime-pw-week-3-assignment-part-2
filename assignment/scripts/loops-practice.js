@@ -30,7 +30,13 @@ console.log('count even numbers from 2 to 10 (2, 4, 6, 8, 10):');
 for (let i = 2; i < 11; i += 2) {
   console.log(i);
 }
-
+/* Pi's idea
+for (let i = 2; i < 11; i++){
+  if (i % 2===0){
+    console.log(i);
+  }
+}
+*/
 // 1.d. (STRETCH) TODO: Write a for loop to do a counddown from 5 to 0
 console.log('STRETCH: countdown from 5 to 0');
 for (let i = 5; i >= 0; i--) {
